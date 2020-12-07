@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Shoes_r_us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <button class="hamburger"><i class="fas fa-bars"></i>
+    </button>
+    <a href="#" class="phone"><i class="fas fa-phone"></i></a>
+
+    <div class="logo">
+        <i class="fas fa-shoe-prints"></i>
+        <h2>Shoes are Us</h2>
+        <p>Find the right for you</p>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+<!-- data-bg: The data attributes is used to store custom data private to the page or application. 
+    The data-* attributes gives us the ability to embed custom data attributes on all the HTML elements. -->
+            <div class="slide" data-bg="cb021c">
+                <img src="./revolt-164_6wVEHfI-unsplash.jpg" alt="Shoe1">
+                <h1>Performance</h1>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="slide" data-bg="7E8F56">
+                <img src="./dan-carlson-HxOlRTqo_F0-unsplash.jpg" alt="Shoe2">
+                <h1>Sporty</h1>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="slide" data-bg="F5F6F8">
+                <img src="./imani-bahati-LxVxPA1LOVM-unsplash.jpg" alt="Shoe3">
+                <h1>Energy</h1>
+                <a href="#">Learn more</a>
+        </div>
+        <div class="slide" data-bg="FAA400">
+            <img src="./paul-gaudriault-a-QH9MAAVNI-unsplash.jpg" alt="Shoe4">
+            <h1>Casual</h1>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="slide" data-bg="E49C67">
+            <img src="./radek-skrzypczak-WlB8TsI_th0-unsplash.jpg" alt="Shoe5">
+            <h1>Classy</h1>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+      
+
+    <button id="left" class="left-arrow arrow"><i class="fas fa-chevron-left"></i></button>
+    <button id="right" class="right-arrow arrow"><i class="fas fa-chevron-right"></i></button>
+    <!-- The "progress" would be managed dynamically by Javascript because the number of dots really depend upon the no. of images-->
+    <div class="progress"></div>
+    </div>
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

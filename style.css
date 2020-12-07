@@ -1,0 +1,114 @@
+/* @import "./reset.css"; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(205,6,29);
+    font-family: 'Roboto', sans-serif,
+        'Courier New', Courier, monospace;
+    margin: 0;
+    transition: background 0.4s ease-in-out;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+}
+
+.phone {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position:relative;
+    height:60vh;
+    width: 100vw;
+    margin-top:10rem;
+}
+
+.carousel {
+    position:absolute;
+    left:0;
+    top:0;
+    transform:translateX(0);
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+}
+
+.slide {
+   
+   
+    width: 100vw;
+    text-align: center;
+   
+}
+
+.slide img {
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.slide h1{
+    color:white;
+    font-size:4rem;
+    margin-top : -2rem; 
+}
+
+.slide a{
+    background-color:#40020e;
+    padding: 1rem 2rem;
+    font-size:1.5rem;
+}
+
+
+.arrow{
+    background-color: transparent;
+    position:absolute;
+    cursor:pointer;
+    border:0;
+    top:30%;
+    font-size:5rem;
+    transform:translateY(-50%);
+    color:black;
+    opacity:.5;
+}
+
+.left-arrow{
+left:2rem;
+}
+
+.right-arrow{
+    right:2rem;
+}
