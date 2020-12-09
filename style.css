@@ -74,6 +74,7 @@ a {
 
 .slide img {
     object-fit: cover;
+    object-position: center;
     height: 400px;
     width: 400px;
 }
