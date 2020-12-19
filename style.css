@@ -99,7 +99,7 @@ a {
     border:0;
     top:30%;
     font-size:5rem;
-    transform:translateY(-50%);
+    transform:translateY(50%);
     color:black;
     opacity:.5;
 }
